@@ -16,7 +16,8 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UsuarioServiceIMPL implements UsuarioService {
+public class
+UsuarioServiceIMPL implements UsuarioService {
 
     @Autowired
     UsuarioRepository usuarioRepository;
@@ -57,14 +58,14 @@ public class UsuarioServiceIMPL implements UsuarioService {
     }
 
     private UsuarioDTO converterUsuarioParaUsuarioDto(Usuario usuario) {
-
+sadsadsadsadsad
         UsuarioDTO dto = new UsuarioDTO();
         dto.setEmail(usuario.getEmail());
         dto.setNome(usuario.getNome());
         dto.setBolAtivo(usuario.getBolAtivo());
 
         return dto;
-    }
+    } ///sdsdsadsadsadsadsadsa
 
     private Usuario converterUsuarioDtoaraUsuario(UsuarioDTO dto) {
 
